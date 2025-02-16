@@ -18,6 +18,18 @@ body {
   /* background-color: #60b347; */
 }
 
+/* Disabling arrows in Chrome, Safari, Edge, Opera */
+.guess::-webkit-outer-spin-button,
+.guess::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Disabling arrows in Firefox */
+.guess {
+  appearance: textfield;
+}
+
 /* LAYOUT */
 header {
   position: relative;
@@ -93,6 +105,13 @@ h1 {
   text-align: center;
   display: block;
   margin-bottom: 3rem;
+}
+
+input::placeholder {
+  color: #fff; 
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
 }
 
 .btn {
