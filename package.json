@@ -1,0 +1,25 @@
+{
+  "name": "guess-my-number",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "https://yuliiavoinarovska.github.io/guess-my-number.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuliiavoinarovska/guess-my-number.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yuliiavoinarovska/guess-my-number/issues"
+  },
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
